@@ -36,10 +36,4 @@ Aplicación full-stack para gestionar vehículos y pedidos logísticos, con cál
 3. Ejecuta en modo desarrollo: `npm run dev`.
 4. Abre `http://localhost:5173` en tu navegador.
 
-## Despliegue en Vercel
 
-Este proyecto está configurado para desplegarse fácilmente en Vercel, sirviendo tanto la API en Python como el Frontend estático en el mismo proyecto.
-
-1. Instala el CLI de Vercel o conecta este repositorio desde la plataforma web.
-2. Ejecuta `vercel` en la raíz del proyecto.
-3. El archivo `vercel.json` se encargará de enrutar el tráfico de `/api` hacia FastAPI, y construir el frontend de React.
